@@ -11,8 +11,8 @@ int main()
    string color;
    cin>>color;
   
-  for(int i = 0 ;i<n;i++ )  {
-      if(color[i]==color[i+1]) coun += 1;
+  for(int i = 0 ;i<n-1;i++ )  {
+      if(color[i]==color[i+1]) coun ++;
   } 
   
   cout<<coun;
